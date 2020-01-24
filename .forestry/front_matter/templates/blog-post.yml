@@ -18,3 +18,4 @@ fields:
   label: Content
 pages:
 - content/page.md
+- content/post/New Post.md
