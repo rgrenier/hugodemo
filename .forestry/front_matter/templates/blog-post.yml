@@ -7,6 +7,15 @@ fields:
   config:
     required: false
   label: Title
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
 - name: featured_image
   type: file
   config:
@@ -21,15 +30,6 @@ fields:
     schema:
       format: markdown
   label: Content
-- name: date
-  type: datetime
-  label: Date
-  description: ''
-  config:
-    required: false
-    date_format: 
-    time_format: 
-    display_utc: false
 pages:
 - content/page.md
 - content/post/New Post.md
