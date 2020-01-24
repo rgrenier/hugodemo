@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>http://hugo.crosbydev.net/post/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Jan 2020 21:28:49 +0000</lastBuildDate>
+    
+	<atom:link href="http://hugo.crosbydev.net/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Welcome</title>
+      <link>http://hugo.crosbydev.net/post/welcome/</link>
+      <pubDate>Thu, 23 Jan 2020 21:28:49 +0000</pubDate>
+      
+      <guid>http://hugo.crosbydev.net/post/welcome/</guid>
+      <description>Lead paragraph
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus, enim ac blandit gravida, ligula dui placerat orci, ut blandit augue dui nec urna. In eu eros quis ipsum lobortis varius. Ut nec congue enim. Etiam euismod aliquam arcu non interdum. Pellentesque faucibus auctor lacinia. Nam bibendum ipsum urna, in rhoncus ligula ultricies in. Nullam est arcu, porttitor a dolor eget, scelerisque vehicula tellus. Sed volutpat non elit eu placerat.</description>
+    </item>
+    
+  </channel>
+</rss>
