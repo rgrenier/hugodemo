@@ -2,7 +2,7 @@
 label: Blog Post
 hide_body: false
 fields:
-- name: image
+- name: featured_image_
   type: file
   config:
     maxSize: 250
