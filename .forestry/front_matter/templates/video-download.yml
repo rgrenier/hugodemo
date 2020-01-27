@@ -28,5 +28,5 @@ fields:
   config:
     min: 
     max: 
-    labelField: 
+    labelField: label
   label: Files
