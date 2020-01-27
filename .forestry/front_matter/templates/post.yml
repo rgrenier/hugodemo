@@ -13,6 +13,10 @@ fields:
 - type: datetime
   name: date
   label: date
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
 pages:
 - content/post/featured-post.md
 - content/post/welcome-1.md
