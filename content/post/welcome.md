@@ -5,6 +5,10 @@ featured_image: "/uploads/connect.jpg"
 tags:
 - wecome
 - " new site"
+repeater:
+- label: Label 1
+- label: Label 2
+- label: Label 3
 
 ---
 Lead paragraph
