@@ -14,4 +14,5 @@ fields:
   name: date
   label: date
 pages:
+- content/post/welcome-1.md
 - content/post/welcome.md
