@@ -9,6 +9,7 @@ sections:
   label: Television
   create: all
   match: "*"
+  exclude: _*
   templates:
   - television
 - type: directory
