@@ -1,4 +1,4 @@
 baseURL = "http://hugo.crosbydev.net/"
 languageCode = "en-us"
-title = "My New Hugo Site"
 theme = "myhugotheme"
+title = "My New Hugo Site"
