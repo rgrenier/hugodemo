@@ -12,13 +12,12 @@ fields:
   default: page
 - name: layout
   type: select
-  default: []
+  default: Default
   config:
     required: false
     options:
-    - Default
-    - One Column
-    - Two Column
+    - one-column
+    - two-column
     source:
       type: simple
       section: 
