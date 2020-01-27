@@ -32,3 +32,5 @@ fields:
   config: {}
   template: video-download
   label: Broadcast
+pages:
+- victories-alex-60.md
