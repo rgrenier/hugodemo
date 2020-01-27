@@ -5,6 +5,6 @@ layout = "two-column"
 title = "Empty Page"
 type = "page"
 [menu.main]
-weight = 3
+weight = 2
 
 +++

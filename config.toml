@@ -3,6 +3,6 @@ languageCode = "en-us"
 theme = "myhugotheme"
 title = "My New Hugo Site"
 [[menu.main]]
-name = "Crosby"
-url = "https://crosbymarketing.com"
-weight = 2
+name = "Television"
+url = "/tv"
+weight = 3
