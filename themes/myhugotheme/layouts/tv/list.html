@@ -10,14 +10,17 @@
             <div class="bg-white mb3 pa4 gray overflow-hidden">
               <span class="f6 db">{{ humanize .Section }}</span>
               <h1 class="f3 near-black">
-                <a href="{{ .Permalink }}" class="link black dim">
+                <a class="embed-responsive-item" href="{{ .Permalink }}" class="link black dim">
                   {{ .Title }}
                 </a>
               </h1>
-              <video width="320" height="240" poster="{{ .Params.video.poster_image }}" controls>
-                <source src="{{ .Params.video.video_url }}" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
+              <!-- 16:9 aspect ratio -->
+              <div class="embed-responsive embed-responsive-16by9">
+                <video poster="{{ .Params.video.poster_image }}" controls>
+                  <source src="{{ .Params.video.video_url }}" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
               <div class="nested-links f5 lh-copy nested-copy-line-height">
                 {{ .Summary  }}
               </div>
