@@ -2,7 +2,6 @@
 title: Welcome
 date: 2020-01-23T21:28:49.000+00:00
 featured_image: "/uploads/connect.jpg"
-draft: true
 
 ---
 Lead paragraph
