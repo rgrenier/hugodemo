@@ -23,14 +23,60 @@ fields:
     label: Video Url
   label: Video
 - name: web
-  type: include
-  config: {}
-  template: video-download
+  type: field_group_list
+  fields:
+  - name: label
+    type: text
+    config:
+      required: false
+    label: Label
+  - name: url
+    type: text
+    config:
+      required: false
+    label: Url
+  - name: size
+    type: number
+    label: Size
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+  config:
+    min: 
+    max: 
+    labelField: 
   label: Web
 - name: broadcast
-  type: include
-  config: {}
-  template: video-download
+  type: field_group_list
+  fields:
+  - name: label
+    type: text
+    config:
+      required: false
+    label: Label
+  - name: url
+    type: text
+    config:
+      required: false
+    label: Url
+  - name: size
+    type: number
+    label: Size
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+  config:
+    min: 
+    max: 
+    labelField: 
   label: Broadcast
 pages:
 - victories-alex-60.md
