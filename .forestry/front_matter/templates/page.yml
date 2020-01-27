@@ -10,6 +10,19 @@ fields:
   label: type
   hidden: true
   default: page
+- name: menu
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - main
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Menu
 - name: title
   type: text
   config:
