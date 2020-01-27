@@ -3,6 +3,13 @@ label: Page
 hide_body: false
 display_field: title
 fields:
+- name: type
+  type: text
+  config:
+    required: true
+  label: type
+  hidden: true
+  default: page
 - name: title
   type: text
   config:
