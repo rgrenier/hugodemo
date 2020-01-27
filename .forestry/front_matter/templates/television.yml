@@ -23,30 +23,12 @@ fields:
     label: Video Url
   label: Video
 - name: web
-  type: field_group_list
-  fields:
-  - name: label
-    type: text
-    config:
-      required: false
-    label: Label
-  - name: size
-    type: number
-    label: Size
-    description: ''
-    default: 0
-    required: true
-    config:
-      min: 
-      max: 
-      step: 
-  - name: url
-    type: text
-    config:
-      required: false
-    label: Url
-  config:
-    min: 
-    max: 
-    labelField: 
+  type: include
+  config: {}
+  template: video-download
   label: Web
+- name: broadcast
+  type: include
+  config: {}
+  template: video-download
+  label: Broadcast
