@@ -1,4 +1,52 @@
 ---
 label: Television
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: video
+  type: field_group
+  config: {}
+  fields:
+  - name: poster_image
+    type: file
+    config:
+      maxSize: 250
+    label: Poster Image
+  - name: video_url
+    type: text
+    config:
+      required: false
+    label: Video Url
+  label: Video
+- name: web
+  type: field_group_list
+  fields:
+  - name: label
+    type: text
+    config:
+      required: false
+    label: Label
+  - name: size
+    type: number
+    label: Size
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+  - name: url
+    type: text
+    config:
+      required: false
+    label: Url
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Web
