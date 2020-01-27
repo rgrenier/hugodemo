@@ -1,6 +1,5 @@
 +++
 date = 2020-01-27T05:00:00Z
-draft = true
 featured_image = "/uploads/connect.jpg"
 title = "New Post"
 
