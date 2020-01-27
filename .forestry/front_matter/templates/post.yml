@@ -17,6 +17,19 @@ fields:
   type: tag_list
   default: []
   label: Tags
+- name: repeater
+  type: field_group_list
+  fields:
+  - name: label
+    type: text
+    config:
+      required: false
+    label: Label
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Repeater
 pages:
 - content/post/featured-post.md
 - content/post/welcome-1.md
