@@ -2,6 +2,11 @@
 label: Post
 hide_body: false
 fields:
+- name: featured_image
+  type: file
+  config:
+    maxSize: 250
+  label: Featured Image
 - type: text
   name: title
   label: title
