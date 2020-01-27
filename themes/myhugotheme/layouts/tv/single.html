@@ -15,6 +15,25 @@
           <source src="{{ .Params.video.video_url }}" type="video/mp4">
           Your browser does not support the video tag.
         </video>
+
+        <label>Web</label>
+        <ul class="pa0">
+          {{ range .Params.web }}
+           <li class="list">
+             <a href="{{- .url -}}" download>{{- .label -}}</a> {{- .size -}}
+           </li>
+          {{ end }}
+        </ul>
+
+        <label>Broadcast</label>
+        <ul class="pa0">
+          {{ range .Params.broadcast }}
+           <li class="list">
+             <a href="{{- .url -}}" download>{{- .label -}}</a> {{- .size -}}
+           </li>
+          {{ end }}
+        </ul>
+
         {{ .Content }}
       </div>
     </article>
