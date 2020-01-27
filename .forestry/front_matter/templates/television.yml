@@ -78,3 +78,5 @@ fields:
     max: 
     labelField: 
   label: Broadcast
+pages:
+- content/tv/victories-greg-60.md
