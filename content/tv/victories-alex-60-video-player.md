@@ -1,6 +1,5 @@
 +++
 broadcast = []
-draft = true
 title = "Victories-Alex :60 Video Player"
 [video]
 poster_image = "/uploads/DVET0054000H_DAV_Victories_Alex_60 Kim_cropped_640x360.jpg"
