@@ -11,8 +11,10 @@
         </h1>
       </header>
       <div class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
-        {{ .Params.video.poster_image }}
-        {{ .Params.video.video_url }}
+        <video width="320" height="240" poster="{{ .Params.video.poster_image }}" controls>
+          <source src="{{ .Params.video.video_url }}" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
         {{ .Content }}
       </div>
     </article>
