@@ -1,16 +1,19 @@
 ---
 title: Welcome
-date: 2020-01-23T21:28:49.000+00:00
+date: 2020-01-28T21:28:49+00:00
 featured_image: "/uploads/connect.jpg"
 tags:
 - wecome
-- "new site"
+- new site
+- new tag
 repeater:
 - label: Label 1
 - label: Label 2
 - label: Label 3
+- label: Label 4
+
 ---
-Lead paragraph
+**Lead paragraph**
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus, enim ac blandit gravida, ligula dui placerat orci, ut blandit augue dui nec urna. In eu eros quis ipsum lobortis varius. Ut nec congue enim. Etiam euismod aliquam arcu non interdum. Pellentesque faucibus auctor lacinia. Nam bibendum ipsum urna, in rhoncus ligula ultricies in. Nullam est arcu, porttitor a dolor eget, scelerisque vehicula tellus. Sed volutpat non elit eu placerat. Mauris mattis turpis eros, quis sagittis dolor lacinia tempus. Quisque ac enim et arcu imperdiet ullamcorper id in risus. Pellentesque lacus eros, dictum in consequat eget, mattis eu ipsum. Nam consequat elit vitae ligula laoreet, in sodales justo vestibulum. In fermentum lacinia fermentum. Fusce a gravida eros, a gravida arcu. Aliquam ut vestibulum orci.
 
