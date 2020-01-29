@@ -11,7 +11,6 @@ repeater:
 - label: Label 2
 - label: Label 3
 - label: Label 4
-draft: true
 
 ---
 **Lead paragraph**
