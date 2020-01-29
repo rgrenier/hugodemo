@@ -6,3 +6,4 @@ title = "My New Hugo Site"
 name = "Television"
 url = "/tv"
 weight = 3
+[[menu.footer]]
