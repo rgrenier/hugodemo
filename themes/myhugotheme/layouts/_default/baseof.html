@@ -15,9 +15,9 @@
     {{ end }}
 
     {{ $stylesheet := .Site.Data.webpack_assets.app }}
+    {{ $style := $stylesheet | resources.PostCSS }}
     {{ with $stylesheet.css }}
       <link href="{{ relURL (printf "%s%s" "dist/" .) }}" rel="stylesheet">
-      {{ $style := $stylesheet | resources.PostCSS }}
     {{ end }}
 
     {{ range .Site.Params.custom_css }}
