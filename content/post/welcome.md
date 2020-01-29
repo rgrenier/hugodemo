@@ -9,7 +9,6 @@ repeater:
 - label: Label 1
 - label: Label 2
 - label: Label 3
-
 ---
 Lead paragraph
 
