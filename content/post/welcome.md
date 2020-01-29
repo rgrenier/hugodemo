@@ -1,14 +1,17 @@
 ---
 title: Welcome
-date: 2020-01-23T21:28:49.000+00:00
+date: 2020-01-28T21:28:49+00:00
 featured_image: "/uploads/connect.jpg"
 tags:
 - wecome
-- "new site"
+- new site
+- new tag
 repeater:
 - label: Label 1
 - label: Label 2
 - label: Label 3
+- label: Label 4
+
 ---
 Lead paragraph
 
